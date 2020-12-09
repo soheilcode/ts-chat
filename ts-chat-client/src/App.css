@@ -1,0 +1,148 @@
+.App {
+    color: white;
+    max-width: 500px;
+    height: 100vh;
+    margin: auto;
+}
+
+.chat {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.header {
+    padding: 10px 10px;
+    background-color: rgb(31, 31, 31);
+    border-bottom: 1px rgb(49, 49, 49) solid;
+    font-size: 14px;
+}
+
+.header h3 {
+    font-weight: 300;
+}
+
+.msg {
+    border: 1px solid rgb(61, 61, 61);
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 99px;
+    margin: 5px 10px;
+    max-width: 200px;
+}
+
+.msg h4 {
+    font-size: 13px;
+}
+
+.msg div,
+.admin-msg div {
+    display: flex;
+    align-items: flex-end;
+}
+
+.msg div span,
+.admin-msg div span {
+    color: rgb(172, 172, 172);
+    font-size: 9px;
+    margin: 0px 5px;
+}
+
+.messages {
+    display: flex;
+    flex-direction: column;
+    overflow: scroll;
+    height: 85vh;
+}
+
+.msg-self {
+    align-self: flex-end;
+    background-color: rgb(53, 53, 53);
+}
+
+.admin-msg {
+    padding: 2px 5px;
+    font-size: 13px;
+    border-radius: 99px;
+    background-color: rgb(104, 104, 104);
+    width: fit-content;
+    color: rgb(255, 255, 255);
+    margin: 3px auto;
+}
+
+.message-form {
+    border: 1px solid rgb(61, 61, 61);
+    padding: 5px 10px;
+    border-radius: 99px;
+    display: flex;
+    width: 90%;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+.message-form input {
+    color: white;
+    border: none;
+    background: transparent;
+    flex: 1;
+    font-size: 16px;
+    height: 25px;
+}
+
+.message-form button {
+    color: rgb(98, 159, 238);
+    font-weight: 700;
+    min-width: 35px;
+    border: none;
+    background: transparent;
+    transition: all 50ms;
+}
+
+.sendMessage {
+    padding-bottom: 10px;
+}
+
+.online {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 0px 10px;
+    color: rgb(98, 159, 238);
+    cursor: pointer;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+    background-color: black;
+}
+
+.online_user {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+    padding-right: 20px;
+}
+
+.online_user .MuiSvgIcon-root {
+    font-size: 10px;
+    margin: 0px 2px;
+    color: rgb(0, 255, 13);
+}
+
+.start_page div button {
+    color: white;
+    background-color: gray
+}
+
+.start_page div input {
+    color: white;
+}
+
+.start_page div {
+    display: flex;
+    align-items: center;
+}
